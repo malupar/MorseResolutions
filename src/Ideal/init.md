@@ -2,12 +2,14 @@
 
 ### __Ideal__ *(base = [], variables: list[str] = [], partialExtremal = False, extremal = False, simplicialComplex = False)*
 
+Initializes the ideal with a base of the monomials and a list of variables that represents it.
+
 ## Parameters
 
 *__base__* : List of strings or integers, optional
 
- - If this is a list of integers it will contain the coordinates of the monomials that generate this ideal
- - If this is a list of strings it will contain the monomials
+ - If this is a list of integers it will contain the coordinates of the monomials that generate this ideal.
+ - If this is a list of strings it will contain the monomials.
 
 *__variables__* : List of strings, optional
 

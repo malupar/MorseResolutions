@@ -6,6 +6,10 @@
 
 *__variable__* : Integer
 
+<div style="margin-left: 30px;">
+ The variable that all monomials of the partition should have in common.
+</div>
+
 ## Implementation
 
 ```python

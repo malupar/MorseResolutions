@@ -7,13 +7,13 @@
 *__idealB__* : Ideal
 
 <div style="margin-left: 30px;">
-Ideal with which we will intersect
+Ideal with which we will intersect.
 </div>
 
 *__simplify__* : Boolean, optional
 
 <div style="margin-left: 30px;">
-True if we keep the minimal base and False otherwise
+True if we keep the minimal base and False otherwise.
 </div>
 
 ## Implementation
@@ -31,10 +31,10 @@ def intersect(self, idealB, simplify: bool = False):
     -------
         Ideal corresponding to the intersection of this ideal and idealB
     """
-
-    ans = Ideal([lcm(x, y) for x in self.baseIdeal for y in idealB.baseIdeal])
+    ans = Ideal(np.array([np.maximum(x, y) for x in self.baseIdeal 
+                        for y in idealB.baseIdeal], dtype=np.int32), self.vars)
     if simplify:
-        ans.getLI()
+    ans.getLI()
     return ans
 ```
 ## Examples
