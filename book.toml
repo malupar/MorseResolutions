@@ -1,0 +1,30 @@
+[book]
+title = "Morse resolutions of monomial ideals and Betti splittings"
+authors = ["Lucía Aparicio"]
+description = "The example book covers examples."
+
+[rust]
+edition = "2018"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html]
+additional-css = ["custom.css"]
+smart-punctuation = true
+mathjax-support = true
+
+[output.html.search]
+limit-results = 15
+
+[output.html.playground]
+editable = true
+
+[output.html.code.hidelines]
+python = "~"
+
