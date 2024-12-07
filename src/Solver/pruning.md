@@ -1,6 +1,6 @@
-# Lyubeznic pruning algorithm
+# Pruning algorithm
 
-### Lyubeznic.__PruningAlgorithm__ *(printLogs: bool = False, invariant: bool = False, validVertex: list[int] = [])*
+### Solver.__PruningAlgorithm__ *(printLogs: bool = False, invariant: bool = False, validVertex: list[int] = [])*
 
 ## Parameters
 

@@ -23,6 +23,8 @@
 
 - [Different solvers for different examples](./solvers.md)
     - [General solver](./solver.md)
+        - [Pruning algorithm](./Solver/pruning.md)
+        - [Checking edges](./Solver/checkEdges.md)
     - [Lyubeznik](./lyubeznic.md)
     - [Simplicial Complex](./simplicialComplex.md)
     - [Scarf](./scarf.md)
