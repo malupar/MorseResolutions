@@ -28,7 +28,7 @@ class Cube:
     Attributes
     ----------
     numVars : int
-    A list of lists that represent the coordinates of the vectors that generate this ideal
+        A list of lists that represent the coordinates of the vectors that generate this ideal
     dimBase : int
     dirs : list
     nodes : list
